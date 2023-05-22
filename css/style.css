@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(/images/bg-body.jpg);
+    
+}
+.page{
+    width:1200px;
+	overflow:hidden;
+	margin:0 auto;
+    background-color:#DCCFAF;
+}
+
+.cabecalho{
+    background-color: #285069;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecalho_titulo span{
+    color: #d88d30;
+}
+.cabecalho_titulo{
+    color: #ffffff;
+    font-family: 'Abel', sans-serif;
+    
+}
+.cabecalho_itens{
+    display: inline;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    padding: 1.5em;
+    color: #d88d30;
+}
+
+
+.conteudo_sobrenos{
+    display: flex;
+    margin-top: 3em;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+.conteudo_sobrenos img{
+    width: 620px;
+    height: 400px;
+}
+.conteudo_sobrenos h2{
+    font-family: 'Abel', sans-serif;
+    padding: 0.3em;
+}
+.conteudo_texto p{
+    padding: 0.5em;
+}
+.contato_titulo{
+    font-family: 'Abel', sans-serif;
+    margin:1em 3.6em;    
+}
+.contato{
+    display: flex;
+    justify-content: space-around;
+
+    font-family: 'Abel', sans-serif;
+}
+
+
+.cadastro form{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+}
+.cadastro form input , button , textarea{
+    padding: 8px; 
+    margin: 0.5em 0;
+    border-radius: 3px;
+    width: 220px;
+    border: none;
+}
+.cadastro form button{
+    border-radius: 3px;
+    color:#DCCFAF;
+    background-color:#285069;
+    font-family: 'Abel', sans-serif;
+}
+.cadastro form button:hover{
+    color: white;
+    background-color: #d88d30;
+}
+.cadastro form textarea{
+    resize:none; 
+    height: 80px;
+}
+.cadastro form input:focus, textarea:focus{
+    outline-color: #285069;
+}
+
+.redes_sociais li {
+    display: inline;
+    padding: 20px;
+    
+}
+.redes_sociais li img{
+    padding: 0.3em;
+    
+}
+
+.redes_sociais ul img{
+    margin: -1em;
+}
+.redes_sociais li img:hover{
+    content: "";
+    background-color: #d88d30;
+    border-radius: 5px;
+    z-index: 1;
+    padding: 0.2em;
+}
+.redes_sociais li a{
+    text-decoration: none;
+}
+.redes_sociais ul{
+    margin: 1em;
+}
+.endereco{
+    margin-top: 1em;
+    
+}
+.rodape{
+    color: white;
+    padding: 1em;
+    height: 2.5em;
+    background-color: #285069;
+}
+/*.lista_sociais img{
+    margin: -6px;
+
+
